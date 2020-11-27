@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <title>Bin2Dec</title>
+</head>
+<body>
+
+        <form class="convert">
+            <input placeholder="Binary..." id="binary" class="box" type="text" size="10" onkeypress="return justZeroAndOne(event)">
+            <button id="button" class="box" onclick="convert(); return false">CONVERT</button>
+            <input class="box" type="text" name="Decimal" id="decimal" placeholder="Decimal..." onkeypress="return justNumbers(event)">
+        </form><!--convert-->
+
+    <script src="./script/main.js"></script>
+</body>
+</html>

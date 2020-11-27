@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: cornflowerblue;
+    font-family: 'texturina';
+    border: 0;
+}
+
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+    background-color: black;
+}
+
+::-webkit-input-placeholder{
+    font-size: 10vh;
+    color: cornflowerblue;  
+}
+
+:root{
+    --width-main: 90vw;
+    --height-main: 100%;
+    --border-main: 4px solid cornflowerblue;
+}
+.convert{
+    display: inline-block;
+    text-align: center;
+    width: 99.7%;
+}
+
+.box{
+    width: var(--width-main);
+    height: 25vh;
+    background-color: black;
+    border: var(--border-main);
+    font-size: 10vh;
+    margin: 20px;   
+}
+#button{
+    width: 90.5vw;
+}
+
+@media screen and  (max-width:400px){
+
+
+}
