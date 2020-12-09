@@ -48,7 +48,7 @@ footer{
 
 @media screen and  (max-width:400px){
     #button{
-        font-size: 7vh;
+        font-size: 8vh;
     }
     .box{
         height: 20vh;
