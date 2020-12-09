@@ -11,7 +11,7 @@ function justZeroAndOne(e){
     if((keyBoard==48 || keyBoard==49)){
         return true;
     }else{
-        return false;
+        return false ;
     }
 }
 
