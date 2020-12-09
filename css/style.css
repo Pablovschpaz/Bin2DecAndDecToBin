@@ -40,7 +40,17 @@ html,body{
     width: 90.5vw;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and  (max-width:400px){
-
-
+    #button{
+        font-size: 7vh;
+    }
+    .box{
+        height: 20vh;
+    }
 }
